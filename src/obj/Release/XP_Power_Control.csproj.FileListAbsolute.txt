@@ -1,0 +1,13 @@
+C:\Users\coelhov\GitHub\XP_Power_App\src\bin\Release\XP_Power_Control.exe.config
+C:\Users\coelhov\GitHub\XP_Power_App\src\bin\Release\XP_Power_Control.exe.manifest
+C:\Users\coelhov\GitHub\XP_Power_App\src\bin\Release\XP_Power_Control.application
+C:\Users\coelhov\GitHub\XP_Power_App\src\bin\Release\XP_Power_Control.exe
+C:\Users\coelhov\GitHub\XP_Power_App\src\bin\Release\XP_Power_Control.pdb
+C:\Users\coelhov\GitHub\XP_Power_App\src\obj\Release\XP_Power_Control.MainForm.resources
+C:\Users\coelhov\GitHub\XP_Power_App\src\obj\Release\XP_Power_Control.Properties.Resources.resources
+C:\Users\coelhov\GitHub\XP_Power_App\src\obj\Release\XP_Power_Control.csproj.GenerateResource.cache
+C:\Users\coelhov\GitHub\XP_Power_App\src\obj\Release\XP_Power_Control.csproj.CoreCompileInputs.cache
+C:\Users\coelhov\GitHub\XP_Power_App\src\obj\Release\XP_Power_Control.exe.manifest
+C:\Users\coelhov\GitHub\XP_Power_App\src\obj\Release\XP_Power_Control.application
+C:\Users\coelhov\GitHub\XP_Power_App\src\obj\Release\XP_Power_Control.exe
+C:\Users\coelhov\GitHub\XP_Power_App\src\obj\Release\XP_Power_Control.pdb

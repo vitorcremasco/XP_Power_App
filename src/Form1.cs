@@ -95,6 +95,9 @@ namespace XP_Power_Control
                 }
                 serialPortPooling.Enabled = true;
                 serialPortConnectBtn.Text = "DISCONNECT";
+
+                SetRemote();
+
                 serialPort1.ReadExisting();//to empty the RX Buffer
                 String SetVolt= ReadOutSetVoltage().Replace("=>", "");
                 String SetCurr= ReadOutSetCurrent().Replace("=>", "");
@@ -144,6 +147,13 @@ namespace XP_Power_Control
                     File.WriteAllText(g_LogFileName, "Date;OutVoltage;OutCurrent" + Environment.NewLine + msgLog);
                 }
             }
+        }
+
+        private void SetRemote()
+        {
+            serialPort1.WriteLine("REMS 1");
+            Thread.Sleep(100);
+            serialPort1.ReadExisting();
         }
 
         private String ReadOutVoltage()
