@@ -300,8 +300,8 @@ namespace XP_Power_Control
                     }
                     if (g_LogFileName != null)
                     {
-                        msgLog += DateTime.Now.Date.ToString("yyyy_MM_dd_") + DateTime.Now.ToString("h_mm_ss_tt;") +
-                            this.lastVolt.Replace("V", "") + ";" + this.lastCurrent.Replace("A", "") + ";" + status.ToString() + Environment.NewLine;
+                        msgLog += DateTime.Now.ToString("hh_mm_ss_fff;") +
+                            this.lastVolt.Replace("V\r\n", "") + ";" + this.lastCurrent.Replace("A\r\n", "") + ";" + status.ToString() + Environment.NewLine;
                         if (msgLog.Length > 2000)
                         {
                             writeFile(msgLog);
